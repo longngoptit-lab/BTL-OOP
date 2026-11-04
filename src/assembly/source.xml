@@ -1,0 +1,9 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.2.0 https://maven.apache.org/xsd/assembly-2.2.0.xsd">
+  <id>source</id><formats><format>zip</format></formats><baseDirectory>StudySpace-source</baseDirectory>
+  <fileSets>
+    <fileSet><directory>.</directory><outputDirectory>/</outputDirectory><useDefaultExcludes>true</useDefaultExcludes>
+      <includes><include>src/**</include><include>scripts/**</include><include>docs/**</include><include>sql/**</include><include>distribution/**</include><include>.mvn/**</include><include>pom.xml</include><include>README.md</include><include>db.properties.example</include><include>.gitignore</include><include>.gitattributes</include><include>mvnw</include><include>mvnw.cmd</include><include>run.cmd</include><include>run.sh</include><include>test*.sh</include></includes>
+      <excludes><exclude>**/*.class</exclude></excludes>
+    </fileSet>
+  </fileSets>
+</assembly>

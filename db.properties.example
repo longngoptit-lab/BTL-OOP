@@ -1,0 +1,7 @@
+db.host=localhost
+db.port=1433
+db.name=QLHT
+db.user=sa
+db.password=YOUR_PASSWORD
+# Chỉ dùng true cho server local có chứng chỉ tự ký.
+db.trust_certificate=true

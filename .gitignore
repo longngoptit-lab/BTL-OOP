@@ -1,0 +1,13 @@
+/target/
+/.deps/
+/db.properties
+*.class
+/qlht.db
+/qlht.db-*
+/qlht.db.bak
+
+/dist/
+/.tools/
+
+# Project khác nằm trong workspace, không thuộc StudySpace.
+/BTL--OOP/
